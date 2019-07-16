@@ -25,8 +25,9 @@ plot2 <- plot(date_time,
               ylab="Global Active Power (kilowatts)")
 
 #Save plot
-dev.copy(png, file = "plot2.png", width = 480, height = 480)
+dev.copy(png, file = 'plot2.png', width = 480, height = 480)
 dev.off()
+
 
 
 
